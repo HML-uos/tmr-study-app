@@ -1,0 +1,338 @@
+name: myapp
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.1
+  path_provider: ^2.0.15
+  shared_preferences: ^2.0.0
+  intl: ^0.17.0
+  crypto: ^3.0.2
+  wakelock: ^0.6.2
+  url_launcher: ^6.1.10
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/forder_normalized.mp3
+    - assets/fellot_normalized.mp3
+    - assets/gamper_normalized.mp3
+    - assets/poters_normalized.mp3
+    - assets/setaks_normalized.mp3
+    - assets/biacom_normalized.mp3
+    - assets/relled_normalized.mp3
+    - assets/tiazes_normalized.mp3
+    - assets/infamo_normalized.mp3
+    - assets/sayour_normalized.mp3
+    - assets/behers_normalized.mp3
+    - assets/cander_normalized.mp3
+    - assets/remink_normalized.mp3
+    - assets/exotor_normalized.mp3
+    - assets/shodle_normalized.mp3
+    - assets/bliels_normalized.mp3
+    - assets/skiled_normalized.mp3
+    - assets/chirds_normalized.mp3
+    - assets/plurce_normalized.mp3
+    - assets/ething_normalized.mp3
+    - assets/berset_normalized.mp3
+    - assets/caludo_normalized.mp3
+    - assets/morode_normalized.mp3
+    - assets/sponed_normalized.mp3
+    - assets/conded_normalized.mp3
+    - assets/stamed_normalized.mp3
+    - assets/farric_normalized.mp3
+    - assets/seigns_normalized.mp3
+    - assets/insing_normalized.mp3
+    - assets/onwars_normalized.mp3
+    - assets/medged_normalized.mp3
+    - assets/groven_normalized.mp3
+    - assets/leards_normalized.mp3
+    - assets/uphers_normalized.mp3
+    - assets/weaser_normalized.mp3
+    - assets/trapts_normalized.mp3
+    - assets/jashew_normalized.mp3
+    - assets/humboy_normalized.mp3
+    - assets/holvia_normalized.mp3
+    - assets/jumbon_normalized.mp3
+    - assets/honchy_normalized.mp3
+    - assets/milets_normalized.mp3
+    - assets/batmus_normalized.mp3
+    - assets/unding_normalized.mp3
+    - assets/wooker_normalized.mp3
+    - assets/loasto_normalized.mp3
+    - assets/carmed_normalized.mp3
+    - assets/oraved_normalized.mp3
+    - assets/hingly_normalized.mp3
+    - assets/decils_normalized.mp3
+    - assets/clobia_normalized.mp3
+    - assets/gulloy_normalized.mp3
+    - assets/delons_normalized.mp3
+    - assets/wirade_normalized.mp3
+    - assets/lested_normalized.mp3
+    - assets/exiloy_normalized.mp3
+    - assets/skiled_normalized.mp3
+    - assets/carged_normalized.mp3
+    - assets/veeble_normalized.mp3
+    - assets/plekel_normalized.mp3
+    - assets/vecren_normalized.mp3
+    - assets/rullar_normalized.mp3
+    - assets/stonge_normalized.mp3
+    - assets/fillog_normalized.mp3
+    - assets/helega_normalized.mp3
+    - assets/bumore_normalized.mp3
+    - assets/infary_normalized.mp3
+    - assets/panner_normalized.mp3
+    - assets/breper_normalized.mp3
+    - assets/genact_normalized.mp3
+    - assets/burain_normalized.mp3
+    - assets/delend_normalized.mp3
+    - assets/combly_normalized.mp3
+    - assets/debuki_normalized.mp3
+    - assets/shable_normalized.mp3
+    - assets/subuse_normalized.mp3
+    - assets/pumoil_normalized.mp3
+    - assets/poldly_normalized.mp3
+    - assets/retand_normalized.mp3
+    - assets/rarbon_normalized.mp3
+    - assets/glamed_normalized.mp3
+    - assets/pixine_normalized.mp3
+    - assets/moster_normalized.mp3
+    - assets/broove_normalized.mp3
+    - assets/praled_normalized.mp3
+    - assets/bushor_normalized.mp3
+    - assets/combal_normalized.mp3
+    - assets/forres_normalized.mp3
+    - assets/pupens_normalized.mp3
+    - assets/kroggy_normalized.mp3
+    - assets/riving_normalized.mp3
+    - assets/jazing_normalized.mp3
+    - assets/cented_normalized.mp3
+    - assets/wafect_normalized.mp3
+    - assets/lunned_normalized.mp3
+    - assets/pelone_normalized.mp3
+    - assets/litire_normalized.mp3
+    - assets/punser_normalized.mp3
+    - assets/auters_normalized.mp3
+    - assets/motier_normalized.mp3
+    - assets/miffer_normalized.mp3
+    - assets/chimer_normalized.mp3
+    - assets/uphols_normalized.mp3
+    - assets/batton_normalized.mp3
+    - assets/plange_normalized.mp3
+    - assets/grunds_normalized.mp3
+    - assets/sheels_normalized.mp3
+    - assets/gunder_normalized.mp3
+    - assets/comery_normalized.mp3
+    - assets/taloda_normalized.mp3
+    - assets/postic_normalized.mp3
+    - assets/incons_normalized.mp3
+    - assets/coyage_normalized.mp3
+    - assets/pryind_normalized.mp3
+    - assets/nepeng_normalized.mp3
+    - assets/CueSound1_normalized.wav
+    - assets/CueSound2_normalized.wav
+    - assets/CueSound3_normalized.wav
+    - assets/CueSound4_normalized.wav
+    - assets/CueSound5_normalized.wav
+    - assets/CueSound6_normalized.wav
+    - assets/CueSound7_normalized.wav
+    - assets/CueSound8_normalized.wav
+    - assets/CueSound9_normalized.wav
+    - assets/CueSound10_normalized.wav
+    - assets/CueSound11_normalized.wav
+    - assets/CueSound12_normalized.wav
+    - assets/CueSound13_normalized.wav
+    - assets/CueSound14_normalized.wav
+    - assets/CueSound15_normalized.wav
+    - assets/CueSound16_normalized.wav
+    - assets/CueSound17_normalized.wav
+    - assets/CueSound18_normalized.wav
+    - assets/CueSound19_normalized.wav
+    - assets/CueSound20_normalized.wav
+    - assets/CueSound21_normalized.wav
+    - assets/CueSound22_normalized.wav
+    - assets/CueSound23_normalized.wav
+    - assets/CueSound24_normalized.wav
+    - assets/CueSound25_normalized.wav
+    - assets/CueSound26_normalized.wav
+    - assets/CueSound27_normalized.wav
+    - assets/CueSound28_normalized.wav
+    - assets/CueSound29_normalized.wav
+    - assets/CueSound30_normalized.wav
+    - assets/CueSound31_normalized.wav
+    - assets/CueSound32_normalized.wav
+    - assets/CueSound33_normalized.wav
+    - assets/CueSound34_normalized.wav
+    - assets/CueSound35_normalized.wav
+    - assets/CueSound36_normalized.wav
+    - assets/CueSound37_normalized.wav
+    - assets/CueSound38_normalized.wav
+    - assets/CueSound39_normalized.wav
+    - assets/CueSound40_normalized.wav
+    - assets/CueSound41_normalized.wav
+    - assets/CueSound42_normalized.wav
+    - assets/CueSound43_normalized.wav
+    - assets/CueSound44_normalized.wav
+    - assets/CueSound45_normalized.wav
+    - assets/CueSound46_normalized.wav
+    - assets/CueSound47_normalized.wav
+    - assets/CueSound48_normalized.wav
+    - assets/CueSound49_normalized.wav
+    - assets/CueSound50_normalized.wav
+    - assets/CueSound51_normalized.wav
+    - assets/CueSound52_normalized.wav
+    - assets/CueSound53_normalized.wav
+    - assets/CueSound54_normalized.wav
+    - assets/CueSound55_normalized.wav
+    - assets/CueSound56_normalized.wav
+    - assets/CueSound57_normalized.wav
+    - assets/CueSound58_normalized.wav
+    - assets/CueSound59_normalized.wav
+    - assets/CueSound60_normalized.wav
+    - assets/CueSound61_normalized.wav
+    - assets/CueSound62_normalized.wav
+    - assets/CueSound63_normalized.wav
+    - assets/CueSound64_normalized.wav
+    - assets/CueSound65_normalized.wav
+    - assets/CueSound66_normalized.wav
+    - assets/CueSound67_normalized.wav
+    - assets/CueSound68_normalized.wav
+    - assets/CueSound69_normalized.wav
+    - assets/CueSound70_normalized.wav
+    - assets/CueSound71_normalized.wav
+    - assets/CueSound72_normalized.wav
+    - assets/CueSound73_normalized.wav
+    - assets/CueSound74_normalized.wav
+    - assets/CueSound75_normalized.wav
+    - assets/CueSound76_normalized.wav
+    - assets/CueSound77_normalized.wav
+    - assets/CueSound78_normalized.wav
+    - assets/CueSound79_normalized.wav
+    - assets/CueSound80_normalized.wav
+    - assets/CueSound81_normalized.wav
+    - assets/CueSound82_normalized.wav
+    - assets/CueSound83_normalized.wav
+    - assets/CueSound84_normalized.wav
+    - assets/CueSound85_normalized.wav
+    - assets/CueSound86_normalized.wav
+    - assets/CueSound87_normalized.wav
+    - assets/CueSound88_normalized.wav
+    - assets/CueSound89_normalized.wav
+    - assets/CueSound90_normalized.wav
+    - assets/CueSound91_normalized.wav
+    - assets/CueSound92_normalized.wav
+    - assets/CueSound93_normalized.wav
+    - assets/CueSound94_normalized.wav
+    - assets/CueSound95_normalized.wav
+    - assets/CueSound96_normalized.wav
+    - assets/CueSound97_normalized.wav
+    - assets/CueSound98_normalized.wav
+    - assets/CueSound99_normalized.wav
+    - assets/CueSound100_normalized.wav
+    - assets/CueSound101_normalized.wav
+    - assets/CueSound102_normalized.wav
+    - assets/CueSound103_normalized.wav
+    - assets/CueSound104_normalized.wav
+    - assets/CueSound105_normalized.wav
+    - assets/CueSound106_normalized.wav
+    - assets/CueSound107_normalized.wav
+    - assets/CueSound108_normalized.wav
+    - assets/CueSound109_normalized.wav
+    - assets/CueSound110_normalized.wav
+    - assets/CueSound111_normalized.wav
+    - assets/CueSound112_normalized.wav
+    - assets/CueSound113_normalized.wav
+    - assets/CueSound114_normalized.wav
+    - assets/CueSound115_normalized.wav
+    - assets/CueSound116_normalized.wav
+    - assets/CueSound117_normalized.wav
+    - assets/CueSound118_normalized.wav
+    - assets/CueSound119_normalized.wav
+    - assets/CueSound120_normalized.wav
+    - assets/soundcheck1_normalized.wav
+    - assets/soundcheck2_normalized.wav
+    - assets/soundcheck3_normalized.wav
+    - assets/soundcheck4_normalized.wav
+    - assets/soundcheck5_normalized.wav
+    - assets/soundcheck6_normalized.wav
+    - assets/brexon_normalized.mp3
+    - assets/zorban_normalized.mp3
+    - assets/jemylo_normalized.mp3
+    - assets/wiloyd_normalized.mp3
+    - assets/naxori_normalized.mp3
+    - assets/junint_normalized.mp3
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
