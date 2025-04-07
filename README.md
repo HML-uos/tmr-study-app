@@ -4,6 +4,6 @@ The attached release presents the Android .apk for app installation in its origi
 
 # Thesis
 
-The thesis is not yet published, once its accessible online I will link it here to give this repository more context.
+The thesis is not yet published, once it's accessible online I will link it here to give this repository more context.
 
 Contact: mariulange@uos.de
