@@ -10,10 +10,10 @@ Contact: mariulange@uos.de
 
 For now take these images to get a glimpse into the app:
 
-The app during the day:
+# The app during the day:
 
 ![Image](https://github.com/user-attachments/assets/e65664eb-98bb-406f-837f-147a861e24ee)
 
-The app during the night:
+# The app during the night:
 
 ![Image](https://github.com/user-attachments/assets/8870bfad-2c57-4dac-bffc-d88e32dba5b5)
