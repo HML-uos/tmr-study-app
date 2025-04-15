@@ -16,4 +16,4 @@ NonCommercial — You may not use the material for commercial purposes.
 
 Attribution: Hans Marius Lange, 2025, Master Thesis "Smartphone Application for Auditory Targeted Memory Reactivation Supported Flashcard Learning - Testing Verbal vs Nonverbal Cues for Vocabulary Learning"
 
-IMPORTANT: Neutral cue sounds were gathered from zapsplat.com! Any sharing or adapation also has to attribute zapsplat.com as the original source for the sound files! 
+IMPORTANT: Neutral cue sounds were gathered from zapsplat.com & spoken words were generated using ttsmaker.com! Any sharing or adapation also has to attribute zapsplat.com & ttsmaker.com as the original source for the sound files! 
