@@ -4,6 +4,8 @@ The attached release presents the Android .apk for app installation in its origi
 
 Find the customizable version of the app developed from this version here: https://github.com/HML-uos/TMR-Learning-App
 
+Find the supplementary repository for the thesis here: https://github.com/HML-uos/Master-Thesis-Smartphone-Application-for-Auditory-Targeted-Memory-Reactivation
+
 Contact: mariulange@uos.de
 
 # Thesis
